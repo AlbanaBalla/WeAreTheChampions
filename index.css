@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1b1924;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+img {
+  width: 90px;
+  margin: 51px 0 17px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+#endorsement-el {
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+#from-to {
+    box-sizing: inherit;
+    margin-top: 8px; 
+    display: flex;
+    gap: 10px;
+}
+
+#from-el {
+    background: #444059;
+    width: 153px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#to-el {
+    background: #444059;
+    width: 153px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+}
+
+button {
+    width: 317px;
+    height: 61px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #28A9F1;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+button:hover {
+  background-color: #7dd3fc;
+  cursor: pointer;
+}
+
+h3 {
+    font-family: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #1b1924;
+  background: #fff;
+  padding: 13px 15px;
+  margin: 0 36px 13px;
+}
+
+ul li:hover {
+  background-color: #7dd3fc;
+  cursor: pointer;
+}
